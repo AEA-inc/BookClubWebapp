@@ -16,4 +16,20 @@ public class Book {
         Author = author;
         this.price = price;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getBookTitle() {
+        return bookTitle;
+    }
+
+    public String getAuthor() {
+        return Author;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }

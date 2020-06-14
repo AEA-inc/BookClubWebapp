@@ -3,8 +3,9 @@ package controller;
 import Dao.AdminDao;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
-
+@WebServlet("/Admin")
 public class AdminServlet extends HttpServlet {
     private AdminDao adminDao;
     @Override
